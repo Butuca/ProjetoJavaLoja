@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #303030;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controllers.VendaViewController">
+   <children>
+      <Label layoutX="269.0" layoutY="14.0" text="VENDA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="34.0" text="CODIGO PRODUTO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="95.0" text="PRODUTO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="156.0" text="FORNECEDOR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="217.0" text="PREÇO UNITARIO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="169.0" text="CÓDIGO VENDA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="34.0" text="NOME DO COMPRADOR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="391.0" layoutY="97.0" text="CPF DO COMPRADOR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCodProdVenda" layoutX="44.0" layoutY="59.0" prefHeight="25.0" prefWidth="74.0" />
+      <TextField fx:id="txtNomeProdVenda" layoutX="44.0" layoutY="120.0" />
+      <TextField fx:id="txtNomeFornecedorVenda" layoutX="44.0" layoutY="181.0" />
+      <TextField fx:id="txtPrecoProdVenda" layoutX="44.0" layoutY="242.0" />
+      <TextField fx:id="txtCodigoVenda" layoutX="445.0" layoutY="193.0" prefHeight="49.0" prefWidth="49.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5686274766921997" green="0.8509804010391235" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Button fx:id="btnCadastrarVenda" layoutX="354.0" layoutY="287.0" mnemonicParsing="false" prefWidth="100.0" text="CADASTRAR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnEditarVenda" layoutX="472.0" layoutY="287.0" mnemonicParsing="false" prefWidth="100.0" text="EDITAR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnExcluirVenda" layoutX="354.0" layoutY="347.0" mnemonicParsing="false" prefWidth="100.0" text="EXCLUIR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnConsultaVenda" layoutX="472.0" layoutY="347.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #91d9ff;" text="CONSULTA">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5686274766921997" green="0.8509804010391235" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextField fx:id="txtNomeCompradorVenda" layoutX="395.0" layoutY="59.0" />
+      <TextField fx:id="txtCpfCompradorVenda" layoutX="395.0" layoutY="121.0" />
+      <Label layoutX="220.0" layoutY="217.0" text="QUANTIDADE" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQtdProdVenda" layoutX="243.0" layoutY="242.0" prefHeight="25.0" prefWidth="52.0" />
+      <Button fx:id="txtAdcProdVenda" layoutX="66.0" layoutY="300.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="85.0" text="ADICIONAR &#10;OUTRO &#10;PRODUTO" textAlignment="CENTER">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

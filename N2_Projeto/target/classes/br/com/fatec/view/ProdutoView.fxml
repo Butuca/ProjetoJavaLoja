@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #303030;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controllers.ProdutoViewController">
+   <children>
+      <Label layoutX="263.0" layoutY="42.0" text="PRODUTO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="84.0" text="NOME" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="145.0" text="DESCRIÇÃO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="206.0" text="PREÇO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="267.0" text="TAMANHO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="84.0" text="CÓDIGO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="84.0" text="TIPO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="170.0" text="FORNECEDOR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNomeProd" layoutX="44.0" layoutY="109.0" />
+      <TextField fx:id="txtDescricao" layoutX="44.0" layoutY="170.0" />
+      <TextField fx:id="txtPreco" layoutX="44.0" layoutY="231.0" />
+      <TextField fx:id="txtTamanho" layoutX="44.0" layoutY="292.0" />
+      <TextField fx:id="txtCodigoProd" layoutX="270.0" layoutY="109.0" prefHeight="49.0" prefWidth="49.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5686274766921997" green="0.8509804010391235" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <ComboBox fx:id="cbTipoProd" layoutX="379.0" layoutY="109.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbFornecedorProd" layoutX="380.0" layoutY="194.0" prefWidth="150.0" />
+      <Button fx:id="btnCadastrarProd" layoutX="354.0" layoutY="267.0" mnemonicParsing="false" prefWidth="100.0" text="CADASTRAR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnEditarProd" layoutX="472.0" layoutY="267.0" mnemonicParsing="false" prefWidth="100.0" text="EDITAR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnExcluirProd" layoutX="354.0" layoutY="327.0" mnemonicParsing="false" prefWidth="100.0" text="EXCLUIR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnConsultaProd" layoutX="472.0" layoutY="327.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #91d9ff;" text="CONSULTA">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5686274766921997" green="0.8509804010391235" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

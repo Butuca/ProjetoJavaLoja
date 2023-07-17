@@ -1,0 +1,16 @@
+br\com\fatec\controllers\FornecedorController.class
+br\com\fatec\controllers\PesquisaAvancadaViewController.class
+br\com\fatec\controllers\ProdutoBuscaViewController.class
+br\com\fatec\controllers\ProdutoViewController.class
+br\com\fatec\controllers\VendaViewController.class
+br\com\fatec\DAO\DAO.class
+br\com\fatec\model\Venda.class
+br\com\fatec\model\Tipo.class
+br\com\fatec\App.class
+br\com\fatec\model\ItensVenda.class
+br\com\fatec\controllers\FornecedorBuscaViewController.class
+br\com\fatec\controllers\MenuViewController.class
+br\com\fatec\controllers\VendaBuscaViewController.class
+br\com\fatec\model\Fornecedor.class
+br\com\fatec\persistencia\Banco.class
+br\com\fatec\model\Produto.class

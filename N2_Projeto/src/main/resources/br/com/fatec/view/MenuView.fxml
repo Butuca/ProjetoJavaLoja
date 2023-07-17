@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #303030;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controllers.MenuViewController">
+    <stylesheets>
+        <URL value="@/br/com/fatec/css/fornecedor.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="281.0" layoutY="29.0" text="MENU" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnProdMenu" layoutX="252.0" layoutY="95.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" text="PRODUTO">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnSairMenu" layoutX="252.0" layoutY="281.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" style="-fx-background-color: #91d9ff;" text="SAIR">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color blue="1.0" green="0.8509804010391235" red="0.5686274766921997" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="btnFornMenu" layoutX="252.0" layoutY="156.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" text="FORNECEDOR">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnVendaMenu" layoutX="252.0" layoutY="218.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" text="VENDA">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
